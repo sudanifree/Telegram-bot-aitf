@@ -1,0 +1,16 @@
+{
+  "name": "telegram-tensorflow-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot using TensorFlow.js for machine learning predictions",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.7.0",
+    "node-fetch": "^3.3.2",
+    "telegraf": "^4.12.3"
+  }
+}
